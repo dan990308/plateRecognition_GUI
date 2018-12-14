@@ -1,0 +1,329 @@
+{
+  "uuid": "",
+  "data_type": "alpr_results",
+  "epoch_time": 1531121625289,
+  "processing_time": {
+    "total": 678.169999999227,
+    "plates": 113.2364501953125,
+    "vehicles": 511.65000000037253
+  },
+  "img_height": 480,
+  "img_width": 640,
+  "results": [
+    {
+      "plate": "B1966RFR",
+      "confidence": 94.83148956298828,
+      "region_confidence": 99,
+      "vehicle_region": {
+        "y": 1,
+        "x": 81,
+        "height": 479,
+        "width": 479
+      },
+      "region": "id-B",
+      "plate_index": 0,
+      "processing_time_ms": 40.31002426147461,
+      "candidates": [
+        {
+          "matches_template": 0,
+          "plate": "B1966RFR",
+          "confidence": 94.83148956298828
+        },
+        {
+          "matches_template": 0,
+          "plate": "B1966FR",
+          "confidence": 83.22337341308594
+        },
+        {
+          "matches_template": 0,
+          "plate": "B1966BFR",
+          "confidence": 83.04685974121094
+        },
+        {
+          "matches_template": 0,
+          "plate": "B1966SFR",
+          "confidence": 83.01538848876953
+        }
+      ],
+      "coordinates": [
+        {
+          "y": 238,
+          "x": 184
+        },
+        {
+          "y": 239,
+          "x": 465
+        },
+        {
+          "y": 326,
+          "x": 461
+        },
+        {
+          "y": 326,
+          "x": 180
+        }
+      ],
+      "vehicle": {
+        "orientation": [
+          {
+            "confidence": 22.80857276916504,
+            "name": "45"
+          },
+          {
+            "confidence": 22.236623764038086,
+            "name": "0"
+          },
+          {
+            "confidence": 18.272851943969727,
+            "name": "90"
+          },
+          {
+            "confidence": 16.362003326416016,
+            "name": "225"
+          },
+          {
+            "confidence": 7.992589473724365,
+            "name": "135"
+          },
+          {
+            "confidence": 6.226138114929199,
+            "name": "315"
+          },
+          {
+            "confidence": 3.0359442234039307,
+            "name": "270"
+          },
+          {
+            "confidence": 2.8183648586273193,
+            "name": "180"
+          },
+          {
+            "confidence": 0.24690844118595123,
+            "name": "missing"
+          }
+        ],
+        "color": [
+          {
+            "confidence": 82.07503509521484,
+            "name": "black"
+          },
+          {
+            "confidence": 7.465626239776611,
+            "name": "red"
+          },
+          {
+            "confidence": 5.178222179412842,
+            "name": "white"
+          },
+          {
+            "confidence": 3.63631534576416,
+            "name": "blue"
+          },
+          {
+            "confidence": 0.8233322501182556,
+            "name": "brown"
+          },
+          {
+            "confidence": 0.5304635763168335,
+            "name": "gold-beige"
+          },
+          {
+            "confidence": 0.1858454793691635,
+            "name": "green"
+          },
+          {
+            "confidence": 0.06576596200466156,
+            "name": "yellow"
+          },
+          {
+            "confidence": 0.023009994998574257,
+            "name": "orange"
+          },
+          {
+            "confidence": 0.012683402746915817,
+            "name": "purple"
+          }
+        ],
+        "make": [
+          {
+            "confidence": 99.99050903320312,
+            "name": "toyota"
+          },
+          {
+            "confidence": 0.006308186333626509,
+            "name": "daihatsu"
+          },
+          {
+            "confidence": 0.0015670588472858071,
+            "name": "kia"
+          },
+          {
+            "confidence": 0.0005532650393433869,
+            "name": "mazda"
+          },
+          {
+            "confidence": 0.00047715124674141407,
+            "name": "honda"
+          },
+          {
+            "confidence": 0.00012249560677446425,
+            "name": "hyundai"
+          },
+          {
+            "confidence": 7.230184564832598e-05,
+            "name": "isuzu"
+          },
+          {
+            "confidence": 7.104690303094685e-05,
+            "name": "tata"
+          },
+          {
+            "confidence": 4.915336103294976e-05,
+            "name": "nissan"
+          },
+          {
+            "confidence": 4.687085674959235e-05,
+            "name": "great-wall"
+          }
+        ],
+        "body_type": [
+          {
+            "confidence": 36.226078033447266,
+            "name": "suv-standard"
+          },
+          {
+            "confidence": 26.65387725830078,
+            "name": "van-mini"
+          },
+          {
+            "confidence": 18.76633071899414,
+            "name": "van-full"
+          },
+          {
+            "confidence": 16.800092697143555,
+            "name": "truck-standard"
+          },
+          {
+            "confidence": 0.861515462398529,
+            "name": "suv-crossover"
+          },
+          {
+            "confidence": 0.5839551091194153,
+            "name": "sedan-wagon"
+          },
+          {
+            "confidence": 0.06096863001585007,
+            "name": "sedan-standard"
+          },
+          {
+            "confidence": 0.04000214859843254,
+            "name": "sedan-compact"
+          },
+          {
+            "confidence": 0.006532981060445309,
+            "name": "tractor-trailer"
+          },
+          {
+            "confidence": 0.00028905601357109845,
+            "name": "motorcycle"
+          }
+        ],
+        "year": [
+          {
+            "confidence": 59.59077453613281,
+            "name": "2010-2014"
+          },
+          {
+            "confidence": 24.75338363647461,
+            "name": "2005-2009"
+          },
+          {
+            "confidence": 13.07343864440918,
+            "name": "2015-2019"
+          },
+          {
+            "confidence": 2.560830593109131,
+            "name": "2000-2004"
+          },
+          {
+            "confidence": 0.016313714906573296,
+            "name": "1995-1999"
+          },
+          {
+            "confidence": 0.003284305799752474,
+            "name": "1990-1994"
+          },
+          {
+            "confidence": 0.0014548453036695719,
+            "name": "1980-1984"
+          },
+          {
+            "confidence": 0.0004215654043946415,
+            "name": "1985-1989"
+          },
+          {
+            "confidence": 9.67020241660066e-05,
+            "name": "missing"
+          }
+        ],
+        "make_model": [
+          {
+            "confidence": 59.901363372802734,
+            "name": "toyota_avanza"
+          },
+          {
+            "confidence": 29.571311950683594,
+            "name": "toyota_fortuner"
+          },
+          {
+            "confidence": 5.885898113250732,
+            "name": "toyota_vellfire"
+          },
+          {
+            "confidence": 2.440941095352173,
+            "name": "toyota_hilux"
+          },
+          {
+            "confidence": 1.0682380199432373,
+            "name": "toyota_alphard"
+          },
+          {
+            "confidence": 0.1872987151145935,
+            "name": "toyota_land-cruiser"
+          },
+          {
+            "confidence": 0.16845867037773132,
+            "name": "toyota_harrier"
+          },
+          {
+            "confidence": 0.09920217841863632,
+            "name": "toyota_innova"
+          },
+          {
+            "confidence": 0.07923959940671921,
+            "name": "toyota_quantum"
+          },
+          {
+            "confidence": 0.07339054346084595,
+            "name": "daihatsu_gran-max"
+          }
+        ]
+      },
+      "matches_template": 0,
+      "requested_topn": 10
+    }
+  ],
+  "credits_monthly_used": 70,
+  "version": 2,
+  "credits_monthly_total": 2000,
+  "error": false,
+  "regions_of_interest": [
+    {
+      "y": 0,
+      "x": 0,
+      "height": 480,
+      "width": 640
+    }
+  ],
+  "credit_cost": 2
+}

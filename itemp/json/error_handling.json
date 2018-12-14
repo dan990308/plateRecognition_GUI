@@ -1,0 +1,324 @@
+{
+  "uuid": "",
+  "data_type": "alpr_results",
+  "epoch_time": 1531122015905,
+  "processing_time": {
+    "total": 675.8129999980156,
+    "plates": 109.80603790283203,
+    "vehicles": 521.6519999994489
+  },
+  "img_height": 480,
+  "img_width": 640,
+  "results": [
+    {
+      "plate": "B1966RFR",
+      "confidence": 94.97147369384766,
+      "region_confidence": 99,
+      "vehicle_region": {
+        "y": 0,
+        "x": 80,
+        "height": 479,
+        "width": 479
+      },
+      "region": "id-B",
+      "plate_index": 0,
+      "processing_time_ms": 38.99286651611328,
+      "candidates": [
+        {
+          "matches_template": 0,
+          "plate": "B1966RFR",
+          "confidence": 94.97147369384766
+        },
+        {
+          "matches_template": 0,
+          "plate": "B1966FR",
+          "confidence": 83.22574615478516
+        },
+        {
+          "matches_template": 0,
+          "plate": "B1966BFR",
+          "confidence": 83.10943603515625
+        }
+      ],
+      "coordinates": [
+        {
+          "y": 210,
+          "x": 163
+        },
+        {
+          "y": 207,
+          "x": 405
+        },
+        {
+          "y": 292,
+          "x": 402
+        },
+        {
+          "y": 298,
+          "x": 161
+        }
+      ],
+      "vehicle": {
+        "orientation": [
+          {
+            "confidence": 55.72504425048828,
+            "name": "90"
+          },
+          {
+            "confidence": 13.446307182312012,
+            "name": "0"
+          },
+          {
+            "confidence": 10.640685081481934,
+            "name": "45"
+          },
+          {
+            "confidence": 5.946819305419922,
+            "name": "225"
+          },
+          {
+            "confidence": 5.862475395202637,
+            "name": "135"
+          },
+          {
+            "confidence": 3.1803159713745117,
+            "name": "270"
+          },
+          {
+            "confidence": 3.155681848526001,
+            "name": "315"
+          },
+          {
+            "confidence": 1.8779959678649902,
+            "name": "180"
+          },
+          {
+            "confidence": 0.16467617452144623,
+            "name": "missing"
+          }
+        ],
+        "color": [
+          {
+            "confidence": 89.25021362304688,
+            "name": "black"
+          },
+          {
+            "confidence": 4.717135429382324,
+            "name": "blue"
+          },
+          {
+            "confidence": 3.595336437225342,
+            "name": "red"
+          },
+          {
+            "confidence": 1.3744038343429565,
+            "name": "white"
+          },
+          {
+            "confidence": 0.5201789736747742,
+            "name": "brown"
+          },
+          {
+            "confidence": 0.23882988095283508,
+            "name": "gold-beige"
+          },
+          {
+            "confidence": 0.21197742223739624,
+            "name": "green"
+          },
+          {
+            "confidence": 0.04054148867726326,
+            "name": "yellow"
+          },
+          {
+            "confidence": 0.03497343882918358,
+            "name": "purple"
+          },
+          {
+            "confidence": 0.007975958287715912,
+            "name": "orange"
+          }
+        ],
+        "make": [
+          {
+            "confidence": 99.99298858642578,
+            "name": "toyota"
+          },
+          {
+            "confidence": 0.0025531481951475143,
+            "name": "daihatsu"
+          },
+          {
+            "confidence": 0.002357576973736286,
+            "name": "kia"
+          },
+          {
+            "confidence": 0.00068420241586864,
+            "name": "honda"
+          },
+          {
+            "confidence": 0.0006720740930177271,
+            "name": "mazda"
+          },
+          {
+            "confidence": 0.00036559064756147563,
+            "name": "hyundai"
+          },
+          {
+            "confidence": 8.841474482323974e-05,
+            "name": "tata"
+          },
+          {
+            "confidence": 6.123025377746671e-05,
+            "name": "mercedes-benz"
+          },
+          {
+            "confidence": 4.369556700112298e-05,
+            "name": "lexus"
+          },
+          {
+            "confidence": 3.764387656701729e-05,
+            "name": "nissan"
+          }
+        ],
+        "body_type": [
+          {
+            "confidence": 77.66372680664062,
+            "name": "van-mini"
+          },
+          {
+            "confidence": 12.467896461486816,
+            "name": "suv-standard"
+          },
+          {
+            "confidence": 4.62209415435791,
+            "name": "van-full"
+          },
+          {
+            "confidence": 2.6348648071289062,
+            "name": "truck-standard"
+          },
+          {
+            "confidence": 1.0592294931411743,
+            "name": "sedan-wagon"
+          },
+          {
+            "confidence": 1.020803689956665,
+            "name": "suv-crossover"
+          },
+          {
+            "confidence": 0.4853411018848419,
+            "name": "sedan-standard"
+          },
+          {
+            "confidence": 0.028251653537154198,
+            "name": "sedan-compact"
+          },
+          {
+            "confidence": 0.016506213694810867,
+            "name": "tractor-trailer"
+          },
+          {
+            "confidence": 0.00052050402155146,
+            "name": "motorcycle"
+          }
+        ],
+        "year": [
+          {
+            "confidence": 54.798095703125,
+            "name": "2005-2009"
+          },
+          {
+            "confidence": 33.546268463134766,
+            "name": "2010-2014"
+          },
+          {
+            "confidence": 9.245089530944824,
+            "name": "2000-2004"
+          },
+          {
+            "confidence": 2.3891494274139404,
+            "name": "2015-2019"
+          },
+          {
+            "confidence": 0.019574008882045746,
+            "name": "1995-1999"
+          },
+          {
+            "confidence": 0.0012662196531891823,
+            "name": "1990-1994"
+          },
+          {
+            "confidence": 0.00041732838144525886,
+            "name": "1980-1984"
+          },
+          {
+            "confidence": 6.78859869367443e-05,
+            "name": "1985-1989"
+          },
+          {
+            "confidence": 5.866336141480133e-05,
+            "name": "missing"
+          }
+        ],
+        "make_model": [
+          {
+            "confidence": 89.96250915527344,
+            "name": "toyota_avanza"
+          },
+          {
+            "confidence": 4.5097479820251465,
+            "name": "toyota_fortuner"
+          },
+          {
+            "confidence": 2.3526394367218018,
+            "name": "toyota_vellfire"
+          },
+          {
+            "confidence": 1.1601547002792358,
+            "name": "toyota_alphard"
+          },
+          {
+            "confidence": 0.5507001876831055,
+            "name": "toyota_hilux"
+          },
+          {
+            "confidence": 0.3818606734275818,
+            "name": "toyota_corolla"
+          },
+          {
+            "confidence": 0.30503731966018677,
+            "name": "toyota_land-cruiser"
+          },
+          {
+            "confidence": 0.2094859927892685,
+            "name": "toyota_harrier"
+          },
+          {
+            "confidence": 0.11289158463478088,
+            "name": "toyota_innova"
+          },
+          {
+            "confidence": 0.057148776948451996,
+            "name": "toyota_corolla-altis"
+          }
+        ]
+      },
+      "matches_template": 0,
+      "requested_topn": 10
+    }
+  ],
+  "credits_monthly_used": 74,
+  "version": 2,
+  "credits_monthly_total": 2000,
+  "error": false,
+  "regions_of_interest": [
+    {
+      "y": 0,
+      "x": 0,
+      "height": 480,
+      "width": 640
+    }
+  ],
+  "credit_cost": 2
+}
